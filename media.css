@@ -1,0 +1,135 @@
+/* Mobile Devices */
+
+@media (max-width: 768px) {
+
+  /* Navigation Bar */
+  .navbar {
+    padding: 20px 30px;
+  }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(22, 22, 52, 0.5);
+    padding: 20px;
+    text-align: center;
+  }
+  .nav-links.active {
+    display: block;
+  }
+  .nav-item {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  /* Hero Section */
+  .hero {
+    padding: 50px 30px;
+    flex-direction: column;
+  }
+  .content {
+    margin-left: 0;
+    text-align: center;
+  }
+  .profile-img img {
+    margin-right: 0;
+    width: 250px;
+  }
+
+  /* About Section */
+  .about-container {
+    flex-direction: column;
+  }
+  .about-image img {
+    margin-left: 0;
+    width: 250px;
+  }
+  .about-text {
+    margin-left: 0;
+  }
+
+  /* Skills Section */
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  /* Projects Section */
+  .projects-container {
+    flex-direction: column;
+  }
+  .project-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Contact Section */
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+  .contact-info {
+    margin-left: 0;
+  }
+  .coding-platforms {
+    margin-right: 0;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links.show {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(22, 22, 52, 0.5);
+    padding: 20px;
+    text-align: center;
+  }
+  .nav-item {
+    margin-bottom: 20px;
+  }
+
+}
+
+/* Small Mobile Devices */
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+  .hero-image{
+    margin: 0 auto;
+    max-width: 300px;
+  }
+  .section-header h2 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  .project-card {
+    margin: 0 10px;
+  }
+  
+  .about-image img {
+    margin: 0 auto;
+    max-width: 280px;
+  }
+  .platforms-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
